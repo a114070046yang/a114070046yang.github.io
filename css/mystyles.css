@@ -3,15 +3,14 @@
     color: hsl(211, 37%, 89%);   
 }
 .yangyang{
-    background-color: hwb(202 23% 63%);
-    border: 2px solid #b0b0b0;
+    background-color:hsl(211, 40%, 21%);
+    border: 1px solid #b0b0b0;
     padding: 40px;
-    border-radius: 20px 30px;
+    border-radius: 20px 20px;
     color: aliceblue;
     margin: 0 auto;
-    width: 50%;
-    overflow: scroll;
-    height: 150px;
+    width: 80%;
+    height: 240px;
 }
 .alyssa{
     text-align: center;
@@ -19,7 +18,6 @@
 }
 a.link{
     color: #7098c2;
-    background-color: hsl(211, 44%, 50%);
     border-radius: 20px 20px;
 }
 a.link:hover{
@@ -37,10 +35,27 @@ section#about h1{
     color: white;
 }
 section#about{
-    background-image: url("../assets/img/82562973e66b16300c38df70d9cdf114.jpeg");
+    background-image: url("../assets/img/ocean.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background-color: #3b6ea57e;
 }
-    
+#aly{
+    color: hsl(211, 40%, 21%);
+}
+.op{
+    text-align: justify;
+}
+.ly{
+    color: #284265;
+}
+.custom-card-body {
+    padding-top: 4rem;    
+    padding-bottom: 4rem;
+    min-height: 250px;             
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
