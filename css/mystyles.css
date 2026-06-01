@@ -11,6 +11,10 @@
     margin: 0 auto;
     width: 80%;
     height: 240px;
+    font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
 }
 .alyssa{
     text-align: center;
