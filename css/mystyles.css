@@ -1,6 +1,6 @@
 .yangcenter{
     text-align: center;
-    color: hsl(211, 37%, 89%);   
+    color: hwb(210 20% 65%);   
 }
 .yangyang{
     background-color:hsl(211, 40%, 21%);
@@ -36,11 +36,16 @@ section#about h1{
 }
 section#about{
     background-image: url("../assets/img/ocean.jpg");
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #3b6ea57e;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 #aly{
     color: hsl(211, 40%, 21%);
@@ -58,4 +63,8 @@ section#about{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.chi{
+    font-size: 60px;
+    text-align: center;
 }
