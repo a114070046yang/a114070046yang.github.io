@@ -41,7 +41,7 @@ section#about h1{
 section#about{
     background-image: url("../assets/img/ocean.jpg");
     min-height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
